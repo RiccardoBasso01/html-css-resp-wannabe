@@ -1,0 +1,36 @@
+
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+ @media screen and (max-width: 768px){
+    .container{
+       width: 600px;
+    }
+ }
+
+ @media screen and (max-width: 480px) {
+    .container{
+        width: 100%;
+    }
+
+    .row{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
+        width: 100%;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .why-us{
+        background-color: #222;
+        padding: 3rem 0;
+        margin-bottom: 0;
+    }
+ }
