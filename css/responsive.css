@@ -4,9 +4,16 @@
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ @media screen and (max-width: 1160px) {
+    .container{
+        max-width: 1140px;
+        width: auto;
+     }
+ }
+
  @media screen and (max-width: 768px){
     .container{
-       width: 600px;
+       max-width: 600px;
     }
  }
 
